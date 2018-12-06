@@ -29,7 +29,7 @@ public class RoomFactoryImpl implements RoomFactory {
         rum.put(RoomProperty.COUNT_ELEMENTS, values[4]);
 
         for(int i = 1; i < Integer.valueOf(rum.get(RoomProperty.COUNT_ELEMENTS)); i++) {
-            elements.add(elementFactory.createElement(lines.get(i), "%"));
+            elements.add(elementFactory.createElement(lines.get(i), separator));
         }
 
         return new Room(rum.get(RoomProperty.ROOM_NAME), rum.get(RoomProperty.ROOM_COLOR_HEX), Float.valueOf(rum.get(RoomProperty.AREA)), Float.valueOf(rum.get(RoomProperty.HEIGHT)), elements);

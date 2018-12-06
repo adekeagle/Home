@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bc74bb5-7904-47ab-b4b1-548607262369" name="Default Changelist" comment="" />
+    <list default="true" id="5bc74bb5-7904-47ab-b4b1-548607262369" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeLoaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeLoaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factories/RoomFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factories/RoomFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factories/RoomFactoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factories/RoomFactoryImpl.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +17,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HomeLoaderImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factories/HomeFactoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="459">
               <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/factories/RoomFactoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="102">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,24 +124,28 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/models/Element.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/factories/ElementFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HomeLoaderImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factories/RoomFactoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/factories/HomeFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factories/RoomFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HomeLoaderImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="20" />
+    <option name="x" value="3" />
+    <option name="y" value="42" />
     <option name="width" value="1355" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -209,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544134118573" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544136764315" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testtest" />
   </component>
   <component name="RunDashboard">
@@ -259,9 +281,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomeFactoryTest - 2018.12.05 at 08h 03m 52s.xml">
-      <configuration name="HomeFactoryTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HomeFactoryTest - 2018.12.05 at 20h 30m 15s.xml">
       <configuration name="HomeFactoryTest" configurationId="JUnit" />
     </history-entry>
@@ -289,9 +308,12 @@
     <history-entry file="HomeFactoryTest - 2018.12.06 at 23h 01m 59s.xml">
       <configuration name="HomeFactoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HomeFactoryTest - 2018.12.06 at 23h 36m 06s.xml">
+      <configuration name="HomeFactoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="20" width="1355" height="688" extended-state="0" />
+    <frame x="3" y="42" width="1355" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -411,16 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HomeLoaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -439,16 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="12" column="101" lean-forward="true" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factories/RoomFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,8 +500,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factories/HomeFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="459">
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factories/RoomFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HomeLoaderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
