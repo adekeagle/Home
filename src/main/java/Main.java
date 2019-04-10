@@ -10,5 +10,6 @@ public class Main {
         Home home = homeLoader.loadHome("home", "%");
 
         System.out.println("Home: " + home);
+        System.out.println("test");
     }
 }
